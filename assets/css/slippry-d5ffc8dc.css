@@ -14,7 +14,7 @@
 /* -------------------------- MIXINS ---------------------------------- */
 /* -------------------------- END MIXINS ---------------------------------- */
 @-webkit-keyframes left-right {
-  /* line 59, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 60, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -22,7 +22,7 @@
     -o-transform: translateY(-20%) translateX(-10%);
     transform: translateY(-20%) translateX(-10%); }
 
-  /* line 62, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 63, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -31,7 +31,7 @@
     transform: translateY(0%) translateX(10%); } }
 
 @-moz-keyframes left-right {
-  /* line 59, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 60, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -39,7 +39,7 @@
     -o-transform: translateY(-20%) translateX(-10%);
     transform: translateY(-20%) translateX(-10%); }
 
-  /* line 62, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 63, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -48,7 +48,7 @@
     transform: translateY(0%) translateX(10%); } }
 
 @-ms-keyframes left-right {
-  /* line 59, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 60, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -56,7 +56,7 @@
     -o-transform: translateY(-20%) translateX(-10%);
     transform: translateY(-20%) translateX(-10%); }
 
-  /* line 62, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 63, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -65,7 +65,7 @@
     transform: translateY(0%) translateX(10%); } }
 
 @keyframes left-right {
-  /* line 59, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 60, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -73,7 +73,7 @@
     -o-transform: translateY(-20%) translateX(-10%);
     transform: translateY(-20%) translateX(-10%); }
 
-  /* line 62, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 63, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -82,7 +82,7 @@
     transform: translateY(0%) translateX(10%); } }
 
 @-webkit-keyframes right-left {
-  /* line 67, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 68, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -90,7 +90,7 @@
     -o-transform: translateY(0%) translateX(10%);
     transform: translateY(0%) translateX(10%); }
 
-  /* line 70, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 71, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -99,7 +99,7 @@
     transform: translateY(-20%) translateX(-10%); } }
 
 @-moz-keyframes right-left {
-  /* line 67, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 68, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -107,7 +107,7 @@
     -o-transform: translateY(0%) translateX(10%);
     transform: translateY(0%) translateX(10%); }
 
-  /* line 70, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 71, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -116,7 +116,7 @@
     transform: translateY(-20%) translateX(-10%); } }
 
 @-ms-keyframes right-left {
-  /* line 67, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 68, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -124,7 +124,7 @@
     -o-transform: translateY(0%) translateX(10%);
     transform: translateY(0%) translateX(10%); }
 
-  /* line 70, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 71, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -133,7 +133,7 @@
     transform: translateY(-20%) translateX(-10%); } }
 
 @keyframes right-left {
-  /* line 67, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 68, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   0% {
     -webkit-transform: translateY(0%) translateX(10%);
     -moz-transform: translateY(0%) translateX(10%);
@@ -141,7 +141,7 @@
     -o-transform: translateY(0%) translateX(10%);
     transform: translateY(0%) translateX(10%); }
 
-  /* line 70, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 71, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   100% {
     -webkit-transform: translateY(-20%) translateX(-10%);
     -moz-transform: translateY(-20%) translateX(-10%);
@@ -149,7 +149,7 @@
     -o-transform: translateY(-20%) translateX(-10%);
     transform: translateY(-20%) translateX(-10%); } }
 
-/* line 76, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 77, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-box.sy-loading {
   background: url(../img/sy-loader-b0ad4ef4.gif) 50% 50% no-repeat;
   -webkit-background-size: 32px;
@@ -157,27 +157,27 @@
   -o-background-size: 32px;
   background-size: 32px;
   min-height: 40px; }
-  /* line 77, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 78, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-box.sy-loading .sy-slides-wrap, .sy-box.sy-loading .sy-pager {
     visibility: hidden; }
 
-/* line 86, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 87, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-slides-wrap {
   position: relative;
   height: 100%;
   width: 100%; }
-  /* line 91, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 92, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
 
-/* line 97, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 98, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-slides-crop {
   height: 100%;
   width: 100%;
   position: absolute;
   overflow: hidden; }
 
-/* line 104, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 105, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-list {
   width: 100%;
   height: 100%;
@@ -185,29 +185,29 @@
   margin: 0;
   padding: 0;
   position: absolute; }
-  /* line 105, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 106, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-list.horizontal {
     -webkit-transition: left ease;
     -moz-transition: left ease;
     -o-transition: left ease;
     transition: left ease; }
 
-/* line 116, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 117, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-slide {
   position: absolute;
   width: 100%;
   z-index: 2; }
-  /* line 120, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 121, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-slide.fade.useCSS.transition {
     -webkit-transition: opacity ease;
     -moz-transition: opacity ease;
     -o-transition: opacity ease;
     transition: opacity ease; }
-  /* line 123, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 124, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-slide.kenburns {
     width: 140%;
     left: -20%; }
-    /* line 128, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 129, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-slide.kenburns.useCSS.sy-ken:nth-child(1n) {
       -webkit-animation-delay: 0;
       -webkit-animation-name: left-right;
@@ -221,7 +221,7 @@
       animation-delay: 0;
       animation-name: left-right;
       animation-fill-mode: forwards; }
-    /* line 131, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 132, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-slide.kenburns.useCSS.sy-ken:nth-child(2n) {
       -webkit-animation-delay: 0;
       -webkit-animation-name: right-left;
@@ -235,22 +235,22 @@
       animation-delay: 0;
       animation-name: right-left;
       animation-fill-mode: forwards; }
-    /* line 135, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 136, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-slide.kenburns.useCSS.transition {
       -webkit-transition: opacity ease;
       -moz-transition: opacity ease;
       -o-transition: opacity ease;
       transition: opacity ease; }
-  /* line 140, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 141, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-slide.sy-active {
     z-index: 3; }
-  /* line 143, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 144, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-slide > a {
     margin: 0;
     padding: 0;
     display: block;
     width: 100%; }
-    /* line 148, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 149, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-slide > a > img {
       margin: 0;
       padding: 0;
@@ -258,51 +258,54 @@
       width: 100%;
       border: 0; }
 
-/* line 158, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 159, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-controls {
-  display: none;
   list-style: none;
   height: 100%;
   width: 100%;
   position: absolute;
   padding: 0;
   margin: 0; }
-  /* line 166, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  @media only screen and (min-width: 600px) {
+    /* line 159, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    .sy-controls {
+      display: none; } }
+  /* line 172, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-controls li {
     position: absolute;
     width: 10%;
-    min-width: 4.2em;
+    min-width: 2.1em;
     height: 100%;
     z-index: 33; }
-    /* line 172, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 178, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-controls li.sy-prev {
       left: 0;
       top: 0; }
-      /* line 176, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 182, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-controls li.sy-prev a:after {
         background-position: -5% 0; }
-    /* line 181, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 187, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-controls li.sy-next {
       right: 0;
       top: 0; }
-      /* line 185, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 191, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-controls li.sy-next a:after {
         background-position: 105% 0; }
-    /* line 190, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 196, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-controls li a {
       position: relative;
       width: 100%;
       height: 100%;
       display: block;
       text-indent: -9999px; }
-      /* line 196, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 202, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-controls li a:link, .sy-controls li a:visited {
         opacity: 0.4; }
-      /* line 199, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 205, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-controls li a:hover, .sy-controls li a:focus {
         opacity: 0.8;
         outline: none; }
-      /* line 203, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 209, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-controls li a:after {
         content: "";
         background-image: url(../img/arrows-03262689.svg);
@@ -313,30 +316,35 @@
         background-size: cover;
         text-align: center;
         text-indent: 0;
-        line-height: 2.8em;
+        line-height: 1.4em;
         color: #111;
         font-weight: 800;
         position: absolute;
         background-color: #fff;
-        width: 2.8em;
-        height: 2.8em;
+        width: 1.4em;
+        height: 1.4em;
         left: 50%;
         top: 50%;
-        margin-top: -1.4em;
-        margin-left: -1.4em;
+        margin-top: -0.7em;
+        margin-left: -0.7em;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         border-radius: 50%; }
 
-/* line 227, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 233, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-caption-wrap {
   position: absolute;
   bottom: 2em;
   z-index: 12;
   left: 50%; }
-  /* line 232, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  @media only screen and (max-width: 600px) {
+    /* line 233, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    .sy-caption-wrap {
+      left: 0;
+      bottom: 0.4em; } }
+  /* line 242, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-caption-wrap .sy-caption {
     position: relative;
     left: -50%;
@@ -348,16 +356,27 @@
     -ms-border-radius: 1.2em;
     -o-border-radius: 1.2em;
     border-radius: 1.2em; }
-    /* line 240, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    @media only screen and (max-width: 600px) {
+      /* line 242, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      .sy-caption-wrap .sy-caption {
+        font-size: 0.88em;
+        left: 0;
+        padding: 0.2em 0.6em;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0; } }
+    /* line 256, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
       color: #e24b70;
       font-weight: 600;
       text-decoration: none; }
-    /* line 245, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 261, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {
       text-decoration: underline; }
 
-/* line 252, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 268, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-pager {
   overflow: hidden;
   *zoom: 1;
@@ -367,21 +386,25 @@
   padding: 0;
   list-style: none;
   text-align: center; }
-  /* line 260, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  @media only screen and (max-width: 600px) {
+    /* line 268, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    .sy-pager {
+      margin-top: 0.6em; } }
+  /* line 280, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-pager li {
     display: inline-block;
-    width: 1.2em;
-    height: 1.2em;
+    width: 0.85714em;
+    height: 0.85714em;
     margin: 0 1em 0 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%; }
-    /* line 267, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 287, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-pager li.sy-active a {
       background-color: #e24b70; }
-    /* line 271, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+    /* line 291, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
     .sy-pager li a {
       width: 100%;
       height: 100%;
@@ -397,17 +420,17 @@
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       border-radius: 50%; }
-      /* line 277, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 297, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-pager li a:link, .sy-pager li a:visited {
         opacity: 1.0; }
-      /* line 280, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+      /* line 300, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
       .sy-pager li a:hover, .sy-pager li a:focus {
         opacity: 0.6; }
 
-/* line 289, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+/* line 309, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
 .sy-filler {
   width: 100%; }
-  /* line 291, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
+  /* line 311, /Users/sftsk/bc_drupal/public/slippry.vbox.local/www/source/assets/css/slippry.scss */
   .sy-filler.ready {
     -webkit-transition: padding 600ms ease;
     -moz-transition: padding 600ms ease;

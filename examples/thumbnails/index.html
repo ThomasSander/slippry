@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Slippry is a responsive content slider by booncon ROCKETS. Slippry is truly responsive, built on modern web standards and is packed with options, so it can be as simple or complex as you want, so give it a go!" />
+    <meta name="description" content="Slippry is a responsive content slider by booncon ROCKETS. This examples shows Slippry with custom coded thumbnails as a pager." />
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width">
-    <title>Examples - CSS vs jQuery transitions</title>
+    <title>Examples - Thumbnails</title>
     <script src="//use.edgefonts.net/cabin:n4,i4,n7,i7;source-sans-pro:n3,i3.js"></script>
     <link href="/assets/css/styles-679d5e7a.css" media="screen" rel="stylesheet" type="text/css" />
   </head>  
-  <body class="examples examples_css-vs-jquery examples_css-vs-jquery_index">
+  <body class="examples examples_thumbnails examples_thumbnails_index">
     <header id="header">
   <div class="restricted-width">
     <h1 id="site-name"><a href="/" id="logo-link">Slippry</a></h1>
@@ -21,31 +21,30 @@
     </nav>
   </div>
 </header>
-    <section class="restricted-width">
-  <h2 class="slider-title">CSS vs jQuery</h2>
-  <p>This demo shows the differences between using CSS transitions and jQuery transitions. What's the difference? In a nutshell, CSS uses your graphic card to process the transition, where as using jQuery uses your main processor. However jQuery is generally more backwards compatible than CSS. That said, CSS transitions will revert to jQuery is the browser doesn't support CSS transitions.</p>
-  <h3>CSS</h3>
-  <ul id="css-demo">
+    <section class="restricted-width default">
+  <h2 class="slider-title">Thumbnails</h2>
+  <p>Due to popular demand an example showing how to build a custom pager with thumbnails. Of course this is only one way of doing it :)</p>
+  <ul id="thumbnails">
     <li><a href="#slide1"><img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li>
-  <li><a href="#slide2"><img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"></a></li>
-  <li><a href="#slide3"><img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
-  <li><a href="#slide4"><img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."></a></li>
+    <li><a href="#slide2"><img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"></a></li>
+    <li><a href="#slide3"><img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
+    <li><a href="#slide4"><img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."></a></li>
   </ul>
-  <h3>jQuery</h3>
-  <ul id="jquery-demo">
-    <li><a href="#slide1"><img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li>
-  <li><a href="#slide2"><img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"></a></li>
-  <li><a href="#slide3"><img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
-  <li><a href="#slide4"><img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."></a></li>
-  </ul>
+  <div class="thumb-box">
+    <ul class="thumbs">
+      <li><a href="#1" data-slide="1"><img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li>
+      <li><a href="#2" data-slide="2"><img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"></a></li>
+      <li><a href="#3" data-slide="3"><img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li>
+      <li><a href="#4" data-slide="4"><img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."></a></li>
+    </ul>
+  </div>
 </section>
 
 <section class="markup restricted-width">
   <h3>HTML Markup</h3>
   <code>
     <pre>
-&lt;h3&gt;CSS&lt;/h3&gt;
-&lt;ul id="css-demo"&gt;
+&lt;ul id="thumbnails"&gt;
   &lt;li&gt;
     &lt;a href="#slide1"&gt;
       &lt;img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 &lt;a href='#link'&gt;Even with links!&lt;/a&gt;"&gt;
@@ -65,31 +64,34 @@
     &lt;a href="#slide4"&gt;
       &lt;img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."&gt;
     &lt;/a&gt;
+  &lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;jQuery&lt;/h3&gt;
-&lt;ul id="jquery-demo"&gt;
-  &lt;li&gt;
-    &lt;a href="#slide1"&gt;
-      &lt;img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 &lt;a href='#link'&gt;Even with links!&lt;/a&gt;"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="#slide2"&gt;
-      &lt;img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="#slide3"&gt;
-      &lt;img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="#slide4"&gt;
-      &lt;img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."&gt;
-    &lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</pre>
+&lt;div class="thumb-box"&gt;
+  &lt;ul class="thumbs"&gt;
+    &lt;li&gt;
+      &lt;a href="#slide1" data-slide="1"&gt;
+        &lt;img src="/assets/img/image-1-d16e2930.jpg" alt="This is caption 1 &lt;a href='#link'&gt;Even with links!&lt;/a&gt;"&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="#slide2" data-slide="2"&gt;
+        &lt;img src="/assets/img/image-2-4dd39e81.jpg"  alt="This is caption 2"&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="#slide3" data-slide="3"&gt;
+        &lt;img src="/assets/img/image-3-04687be0.jpg" alt="And this is some very long caption for slide 3. Yes, really long."&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="#slide4" data-slide="4"&gt;
+        &lt;img src="/assets/img/image-4-90573bc6.jpg" alt="And this is some very long caption for slide 4."&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</pre>
   </code>
 </section>
 
@@ -97,20 +99,28 @@
   <h3>jQuery</h3>
   <code>
     <pre>
-jQuery('#css-demo').slippry({
+var thumbs = jQuery('#thumbnails').slippry({
+  // general elements &amp; wrapper
+  slippryWrapper: '&lt;div class="slippry_box thumbnails" /&gt;',
   // options
   transition: 'horizontal',
+  pager: false,
+  auto: false,
+  onSlideBefore: function (el, index_old, index_new) {
+    jQuery('.thumbs a img').removeClass('active');
+    jQuery('img', jQuery('.thumbs a')[index_new]).addClass('active');
+  }
 });
 
-jQuery('#jquery-demo').slippry({
-  // options
-  useCSS: false,
-  transition: 'horizontal',
+jQuery('.thumbs a').click(function () {
+  thumbs.goToSlide($(this).data('slide'));
+  return false;
 });</pre>
   </code>
 </section>
+
 <section class="restricted-width example-tiles">
-<a class="tile" href="/examples/out-of-the-box">Out-of-the-box</a><a class="tile" href="/examples/pictures">Pictures</a><a class="tile" href="/examples/portfolio">Portfolio</a><a class="tile" href="/examples/news">News</a><a class="tile" href="/examples/shop">Shop</a><a class="tile active" href="/examples/css-vs-jquery">CSS vs jQuery</a></section>
+<a class="tile" href="/examples/out-of-the-box/">Out-of-the-box</a><a class="tile" href="/examples/pictures/">Pictures</a><a class="tile" href="/examples/portfolio/">Portfolio</a><a class="tile" href="/examples/news/">News</a><a class="tile" href="/examples/shop/">Shop</a><a class="tile active" href="/examples/thumbnails/">Thumbnails</a><a class="tile" href="/examples/css-vs-jquery/">CSS vs jQuery</a></section>
     <footer id="footer" class="full-width">
   <div class="footer-content restricted-width">
     <div class="githubs">
